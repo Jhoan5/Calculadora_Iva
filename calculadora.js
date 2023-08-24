@@ -6,4 +6,8 @@ class Input{
         this.value = value;
         this.div = this.getDiv();
     }
+    // Div con label e input
+    getDiv(){
+        let div = document.createElement('div');
+    }
 }
