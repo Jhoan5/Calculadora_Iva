@@ -9,6 +9,13 @@ class Input{
     // Div con label e input
     getDiv(){
         let div = document.createElement('div');
+        if((this.type === 'radio')||(this.type === 'checkbox')){
+            div.appendChild(this.getInput());
+            div.appendChild(this.getLabel());
+        }else{
+            div.appendChild(this.getLabel());
+            div.appendChild(this.getInput());
+        }
         return div;
     }
     getLabel(){
