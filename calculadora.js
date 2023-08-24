@@ -75,5 +75,14 @@ CALCULAR.addEventListener('click', ()=>{
     const REALIVA =parseFloat(IVA.value);
     let precioIva = 0;
     let valorIva = 0;
+    // calcular 
+    if(SIIVA.checked){
+        valorIva = (REALPRECIO/(REALIVA+100)*REALIVA).toFixed(3);
+        precioIva = (REALPRECIO).toFixed(3);
+    }else if(NOIVA.checked){
+        valorIva = (REALPRECIO*REALIVA/100);
+        precioIva = (valorIva+REALPRECIO).toFixed(3);
+        valorIva = valorIva.toFixed(3);
+    }
     //
 });
