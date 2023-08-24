@@ -68,4 +68,12 @@ const IVA = document.getElementById('Iva');
 const SIIVA = document.getElementById('Precio_tiene_iva');
 const NOIVA = document.getElementById('Precio_no_tien_iva');
 const CALCULAR = document.getElementById('calcular');
-// 
+// evento
+CALCULAR.addEventListener('click', ()=>{
+    // variables previas
+    const REALPRECIO = parseFloat(PRECIO.value);
+    const REALIVA =parseFloat(IVA.value);
+    let precioIva = 0;
+    let valorIva = 0;
+    //
+});
