@@ -10,4 +10,9 @@ class Input{
     getDiv(){
         let div = document.createElement('div');
     }
+    getLabel(){
+        let label = document.createElement('label');
+        label.setAttribute('for',this.id);
+        label.textContent = this.id+': ';
+    }
 }
