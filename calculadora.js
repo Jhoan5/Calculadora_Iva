@@ -44,3 +44,11 @@ class Input{
         return input;
     }
 }
+const CALCULADORA = document.getElementById('calculadora');//div HTML
+// input => precio,iva,(valor+iva||valor-iva), calcular.
+const BOXPRECIO = new Input('number','Precio','Precio');
+const BOXIVA = new Input('number','Iva','Iva');
+const BOXSIIVA = new Input('radio','if','Precio_tiene_iva','true');
+const BOXNOIVA = new Input('radio','if','Precio_no_tiene_iva','true');
+const BOXCALCULAR = new Input('button','calcular','calcular','Calcular');
+//
