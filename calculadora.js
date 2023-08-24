@@ -85,7 +85,16 @@ CALCULAR.addEventListener('click', ()=>{
         valorIva = valorIva.toFixed(3);
     }
     // table
-    let resultado = [['Precio: $',PRECIO.value],['Iva: %',IVA.value],['Precio con iva: $',precioIva],['Valor de iva: $',valorIva]];
-    let table = document.createElement('table');
-    // 
+    const RESULTADO = [['Precio: $',PRECIO.value],['Iva: %',IVA.value],['Precio con iva: $',precioIva],['Valor de iva: $',valorIva]];
+    const TABLE = document.createElement('table');
+    // for => tr, for => td
+    for(let i of RESULTADO){
+        const ROW = document.createElement('tr');
+        for(let j of i){
+            const COLUMN = document.createElement('td');
+            COLUMN.textContent = j;
+            ROW.appendChild(COLUMN);
+        }
+        TABLE.appendChild(ROW);
+    }
 });
