@@ -124,3 +124,13 @@ FORM.style.flexDirection = 'column';
 FORM.style.gap = '8px';
 FORM.width = '100%';
 //
+PRECIO.style.borderRadius = '5px';
+PRECIO.style.margin = '3px';
+IVA.style.borderRadius = '5px';
+IVA.style.margin = '3px';
+//
+CALCULAR.style.border = '1px solid gray';
+CALCULAR.style.borderRadius = '5px';
+CALCULAR.style.background = '#00D1B2';
+CALCULAR.style.color = 'white';
+CALCULAR.style.padding = '4px';
