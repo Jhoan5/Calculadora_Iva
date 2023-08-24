@@ -52,3 +52,14 @@ const BOXSIIVA = new Input('radio','if','Precio_tiene_iva','true');
 const BOXNOIVA = new Input('radio','if','Precio_no_tiene_iva','true');
 const BOXCALCULAR = new Input('button','calcular','calcular','Calcular');
 //
+const H2 = document.createElement('h2');
+const FORM = document.createElement('form');
+// elementos sobre la pagina
+H2.textContent = 'Calculador de Iva';
+CALCULADORA.appendChild(H2);
+FORM.appendChild(BOXPRECIO.div);
+FORM.appendChild(BOXIVA.div);
+FORM.appendChild(BOXSIIVA.div);
+FORM.appendChild(BOXNOIVA.div);
+FORM.appendChild(BOXCALCULAR.div);
+//
