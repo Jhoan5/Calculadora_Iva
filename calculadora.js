@@ -97,4 +97,5 @@ CALCULAR.addEventListener('click', ()=>{
         }
         TABLE.appendChild(ROW);
     }
+    CALCULADORA.appendChild(TABLE);
 });
