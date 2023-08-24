@@ -119,3 +119,8 @@ CALCULADORA.style.width = '190px';
 CALCULADORA.style.background = 'white';
 CALCULADORA.style.boxShadow = 'black 0px 0px 10px';
 //
+FORM.style.display = 'flex';
+FORM.style.flexDirection = 'column';
+FORM.style.gap = '8px';
+FORM.width = '100%';
+//
