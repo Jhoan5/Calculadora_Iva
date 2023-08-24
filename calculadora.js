@@ -67,7 +67,7 @@ CALCULADORA.appendChild(FORM);
 const PRECIO = document.getElementById('Precio');
 const IVA = document.getElementById('Iva');
 const SIIVA = document.getElementById('Precio_tiene_iva');
-const NOIVA = document.getElementById('Precio_no_tien_iva');
+const NOIVA = document.getElementById('Precio_no_tiene_iva');
 const CALCULAR = document.getElementById('calcular');
 // evento
 CALCULAR.addEventListener('click', ()=>{
