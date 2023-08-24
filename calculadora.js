@@ -62,4 +62,10 @@ FORM.appendChild(BOXIVA.div);
 FORM.appendChild(BOXSIIVA.div);
 FORM.appendChild(BOXNOIVA.div);
 FORM.appendChild(BOXCALCULAR.div);
-//
+// variables
+const PRECIO = document.getElementById('Precio');
+const IVA = document.getElementById('Iva');
+const SIIVA = document.getElementById('Precio_tiene_iva');
+const NOIVA = document.getElementById('Precio_no_tien_iva');
+const CALCULAR = document.getElementById('calcular');
+// 
