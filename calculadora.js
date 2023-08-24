@@ -70,6 +70,11 @@ const NOIVA = document.getElementById('Precio_no_tien_iva');
 const CALCULAR = document.getElementById('calcular');
 // evento
 CALCULAR.addEventListener('click', ()=>{
+    // clean table
+    let findTable = CALCULADORA.querySelector('table')    ;
+    if(findTable){
+        findTable.remove();
+    }
     // variables previas
     const REALPRECIO = parseFloat(PRECIO.value);
     const REALIVA =parseFloat(IVA.value);
