@@ -84,5 +84,8 @@ CALCULAR.addEventListener('click', ()=>{
         precioIva = (valorIva+REALPRECIO).toFixed(3);
         valorIva = valorIva.toFixed(3);
     }
-    //
+    // table
+    let resultado = [['Precio: $',PRECIO.value],['Iva: %',IVA.value],['Precio con iva: $',precioIva],['Valor de iva: $',valorIva]];
+    let table = document.createElement('table');
+    // 
 });
