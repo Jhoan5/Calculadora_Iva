@@ -105,3 +105,9 @@ CALCULAR.addEventListener('click', ()=>{
     }
     CALCULADORA.appendChild(TABLE);
 });
+// style
+h2.style.margin = '0';
+//
+CALCULADORA.style.display = 'flex';
+CALCULADORA.style.flexDirection = 'column';
+CALCULADORA.style.gap = '15px';
