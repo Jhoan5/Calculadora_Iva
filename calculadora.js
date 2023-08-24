@@ -106,8 +106,16 @@ CALCULAR.addEventListener('click', ()=>{
     CALCULADORA.appendChild(TABLE);
 });
 // style
-h2.style.margin = '0';
+H2.style.margin = '0';
 //
 CALCULADORA.style.display = 'flex';
 CALCULADORA.style.flexDirection = 'column';
 CALCULADORA.style.gap = '15px';
+CALCULADORA.style.margin = '20px';
+CALCULADORA.style.padding = '15px';
+CALCULADORA.style.border = '1px solid gray';
+CALCULADORA.style.borderRadius = '15px';
+CALCULADORA.style.width = '190px';
+CALCULADORA.style.background = 'white';
+CALCULADORA.style.boxShadow = 'black 0px 0px 10px';
+//
