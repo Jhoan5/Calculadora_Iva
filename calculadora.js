@@ -22,6 +22,13 @@ class Input{
         let label = document.createElement('label');
         label.setAttribute('for',this.id);
         label.textContent = this.id+': ';
+        // algunos input no tienen label
+        if((this.type ==='radio')||(this.type ==='checkbox')){
+        }else{
+            if((this.value!==undefined)&&(this.value!==null)){
+                label.style.display = 'none';
+        }
+        }
         return label;
     }
     getInput(){
