@@ -1,0 +1,26 @@
+{
+  "name": "calculadora_iva",
+  "version": "1.0.0",
+  "description": "(calculadora de iva tipo JavaScript ID)",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhoan5/Calculadora_Iva.git"
+  },
+  "keywords": [
+    "[calculadora",
+    "iva",
+    "calcular",
+    "precio",
+    "valor]"
+  ],
+  "author": "Jhoan5",
+  "license": "(GPL-3.0)",
+  "bugs": {
+    "url": "https://github.com/Jhoan5/Calculadora_Iva/issues"
+  },
+  "homepage": "https://github.com/Jhoan5/Calculadora_Iva#readme"
+}
